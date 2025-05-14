@@ -1,0 +1,23 @@
+.menu_list > a {
+    text-align: center;
+    padding-left: 0px;
+}
+
+
+.home-btn_link {
+    text-decoration: none;
+    color: #94B4C1;
+    border: 1px solid #547792;
+    border-radius: 18px;
+    padding: 8px 12px;
+}
+
+.home-btn_link:hover {
+    color: #ECEFCA;
+    background-color: #547792;
+    transition: all 400ms ease;
+}
+
+.home-btn {
+    margin-top: 2rem;
+}

@@ -1,0 +1,90 @@
+.home-btn_link {
+    text-decoration: none;
+    color: #94B4C1;
+    border: 1px solid #547792;
+    border-radius: 18px;
+    padding: 8px 12px;
+}
+
+.home-btn_link:hover {
+    color: #ECEFCA;
+    background-color: #547792;
+    transition: all 400ms ease;
+}
+
+.home-btn {
+    margin-top: 2rem;
+}
+
+.menu-container {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu_list:hover {
+    cursor: pointer;
+    transition: all 300ms ease;
+    background-color: #dddddd;
+    border: solid 1px rgb(221, 221, 221);
+    color: #000000;
+}
+
+.menu_list {
+    width: 25rem;
+    height: 3.5rem;
+    color: #213448;
+    text-decoration: none;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    display: flex;
+    border-radius: 10px;
+    background-color: #94B4C1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content_menuList{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.player-number , .player-scor {
+    background-color: #213448;
+    height: 2.2rem;
+    width: 2rem;
+    border-radius: 8px;
+    color: #ECEFCA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+.player-name {
+    font-size: 1.2rem;
+}
+.player-scor {
+    height: 2rem;
+    width: 1.8rem;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    background-color: #ECEFCA;
+    color: #213448;
+}
+
+
+.fadeInLeft { 
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+ }
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to { opacity: 1 }
+}

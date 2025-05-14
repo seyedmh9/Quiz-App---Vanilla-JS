@@ -1,0 +1,117 @@
+#loader {
+    width: 5rem;
+    height: 5rem;
+    border: solid 8px #ECEFCA;
+    border-radius: 50%;
+    border-top-color : transparent;
+    animation: ratoation 1s linear infinite;
+}
+
+@keyframes ratoation{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.Container{
+    display: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.header-title_left, .header-title_right{
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+}
+
+.header-title_left > p, .header-title_right > p {
+    color: #ECEFCA;
+    font-size: 1.5rem;
+}
+
+.header-title_left > span, .header-title_right > span {
+    color: #213448;
+    background-color: #94B4C1;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 2px 5px;
+}
+
+.question-box {
+    width: 100%;
+}
+
+.question-title{
+    background-color:#94B4C1;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 14px;
+    font-size: 1.2rem;
+    color: #213448;
+}
+
+.answer-box {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    margin-top: 1.8rem;
+}
+
+.answer-btn {
+    display: flex;
+    padding-left: 1.2rem;
+    height: 2.7rem;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ECEFCA;
+    border: none;
+    font-size: 1.01rem;
+    color: #213448;
+    transition: all 400ms ease;
+}
+
+.answer-btn:hover {
+    background-color: #94B4C1;
+    color: #ECEFCA;
+    cursor: pointer;
+}
+
+.action-btn_container {
+    display: flex;
+    width: 100%;
+
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.finish-btn , .next-btn {
+    padding: 7px 20px;
+    border-radius: 15px;
+    color: #94B4C1;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 3px solid #547792;
+}
+
+.finish-btn:hover , .next-btn:hover {
+    color: #ECEFCA;
+    background-color: #547792;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.alert-data{
+    display: none;
+}

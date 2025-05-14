@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App Project | Play game</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+<body class="container">
+    <div class="alert alert-data">
+        <p>Something went wrong | Plaese try again</p>
+    </div>
+    <span id="loader"></span>
+    <div class="container Container ">
+        <div class="header">
+            <div class="header-title_left">
+                <p>Question No :</p>
+                <span>0</span>
+            </div>
+            <div class="header-title_right">
+                <p>Score :</p>
+                <span>0</span>
+            </div>
+        </div>
+        <div class="question-box">
+            <div class="question-title">
+                <p class="question-title_text"></p>
+            </div>
+            <div class="answer-box">
+                <button class="answer-btn"></button>
+                <button class="answer-btn"></button>
+                <button class="answer-btn"></button>
+                <button class="answer-btn"></button>
+            </div>
+        </div>
+        <div class="action-btn_container">
+            <button class="finish-btn">Finish</button>
+            <button class="next-btn">Next</button>
+        </div>
+    </div>
+    <script src="../js/game.js"></script>
+</body>
+</html>

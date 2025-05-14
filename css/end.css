@@ -1,0 +1,50 @@
+.scor-number {
+    color: #ECEFCA;
+    background-color: #94B4C1;
+    /* padding: 20px; */
+    width: 4.4rem;
+    height: 4rem;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.menu-container{
+    margin-top: 2rem;
+}
+
+.menu_list > a{
+    text-align: center;
+    padding-left: 0px;
+
+}
+
+.username-input {
+    width: 16rem;
+    height: 3.5rem;
+    border:none;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 1.02rem;
+    background-color: #547792;
+    border: 3px solid #94B4C1;
+}
+
+.username-input::placeholder {
+    font-size: .9rem;
+    color: #213448;
+}
+
+.username-input:focus::placeholder {
+    color: #ECEFCA;
+}
+
+.username-input:focus{
+    background-color: #547792;
+    transition: all 300ms ease;
+    color: #ECEFCA;
+    outline: none;
+    transform: scale(1.05);
+}

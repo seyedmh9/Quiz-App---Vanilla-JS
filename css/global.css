@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Cal Sans";
+}
+
+.alert {
+    /* animation-name: moveFromTop;  */
+    animation-duration: .5s;
+    background-color: #ac0000cc;
+    width: 40vw;
+    padding: 2rem .8rem;
+    border-radius: 20px;
+    position: fixed;
+    margin: auto;
+    left: 30%;
+    text-align: center;
+    display: none;
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: 3px;
+    top: .5rem;
+    z-index: 1000;
+}
+
+body {
+    background-color:#213448;
+}
+
+.container {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40rem;
+}
+
+.moveFromTop { animation-name: moveFromTop ; animation-duration: .8s;}
+
+@keyframes moveFromTop {
+    from { 
+        transform: translateY(-800px);
+        opacity: 0
+    }
+}
+
+@keyframes movetoTop {
+    to { 
+        transform: translateY(-800px);
+        opacity: 0
+    }
+}
+
+.header-title {
+    color: #ECEFCA;
+    letter-spacing: 4px;
+}
+
+.menu-container {
+    margin-top: 5rem;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0px;
+    gap: 1rem;
+}
+.menu_list {
+    width: 16rem;
+    height: 3.5rem;
+}
+
+.menu_list > a:hover {
+    cursor: pointer;
+    transition: all 300ms ease;
+    background-color: #dddddd;
+    border: solid 1px rgb(221, 221, 221);
+    color: #000000;
+}
+
+.menu_list > a {
+    color: #213448;
+    text-decoration: none;
+    padding-left: 1rem;
+    display: block;
+    border-radius: 10px;
+    line-height: 3.5rem;
+    width: 100%;
+    height: 100%;
+    background-color: #94B4C1;
+}
+
+
